@@ -17,7 +17,7 @@ Vue.use(Vuex)
 Vue.use(VueRouter)
 
 const routes = [
-  { path: '/home', component: Home, name: 'home' },
+  { path: '/', component: Home, name: 'home' },
   { path: '/add-card', component: AddCard, name: 'add-card' }
 ]
 
