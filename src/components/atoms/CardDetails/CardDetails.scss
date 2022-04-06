@@ -1,0 +1,100 @@
+.card-details-body {
+  background-color: #FFFFFF;
+  padding: 1px;
+
+  .collapse-header {
+    // border: 1pt solid #F5F5F5;
+    background-color: #FAFCFF;
+  }
+}
+
+.card-details-container {
+  border: 1pt solid #F5F5F5;
+  background: #FAFCFF;
+  border-radius: 5pt;
+  margin: 18pt;
+}
+
+.card-details-option {
+  margin: 16pt 14pt 16pt 14pt;
+
+  .collapse-btn {
+    border: none;
+    background: none;
+    float: right;
+  }
+
+  .details-logo {
+    width: 20pt;
+    height: 20pt;
+  }
+
+  .card-detail-label {
+    margin-left: 12pt;
+    font-size: 14pt;
+  }
+
+  .arrow {
+    float: right;
+    width: 20pt;
+    height: 20pt;
+  }
+
+  .btn-secondary:hover {
+    background-color: white;
+    border: none;
+  }
+
+  .card {
+    width: 233pt;
+  }
+
+  .card-body {
+    display: inline-block;
+    width: 318pt; 
+
+    .transaction-logo {
+      background: #00D6B51A;
+      width: 48pt;
+      height: 48pt;
+      border-radius: 50pt;
+      display: inline-block;
+      padding: 12pt;
+    }
+    .details-info {
+      display: inline-block;
+      margin: 11pt;
+    }
+
+    .cost {
+      color: #01D167;
+      font-size: 14pt;
+      display: inline-block;
+    }
+
+    .name {
+      font-size: 14pt;
+      color: #222222;
+    }
+
+    .date {
+      font-size: 13pt;
+      color: #AAAAAA;
+    }
+
+    .next {
+      width: 65px;
+      height: 12px;
+    }
+
+    .refund {
+      width: 24pt;
+      height: 20pt;
+      background: #325BAF;
+      display: inline-block;
+      /* margin: auto; */
+      /* padding: 11px; */
+      padding: 0px 11px 11px 11px;
+    }
+  }
+}

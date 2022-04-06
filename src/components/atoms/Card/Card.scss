@@ -1,0 +1,55 @@
+.debit-card {
+  width: 358px;
+  height: 220px;
+  background: #01D167;
+  border-radius: 12pt;
+  padding: 24pt;
+  margin-left: 10px;
+  
+  .name {
+    font-size: 22pt;
+    color: #FFFFFF;
+    margin-top: 16pt;
+
+  }
+  
+  .card-aspire-logo {
+    float: right;
+  }
+  
+  .card-logo {
+    float: right;
+  }
+
+  .number {
+    margin-top: 10pt;
+  }
+
+  .dot {
+    width: 8pt;
+    height: 8pt;
+    background-color: #FFFFFF;
+    border-radius: 10pt;
+    display: inline-block;
+    margin: 1.5pt;
+  }
+
+  .space {
+    margin-left: 10pt;
+  }
+
+  .last-num {
+    color: #FFFFFF;
+  }
+
+  .exp-date, .cvv {
+    color: #FFFFFF;
+    margin-right: 10pt;
+  }
+
+  .card-secure {
+    margin-top: 8pt;
+  }
+}
+
+
